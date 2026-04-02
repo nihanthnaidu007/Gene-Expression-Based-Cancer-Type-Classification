@@ -1,0 +1,51 @@
+gene_rank,gene_index,global_importance_score,top_class_labels_where_gene_is_important
+1,20505,0.06067454350660513,cholangiocarcinoma; uterine carcinosarcoma; lung adenocarcinoma
+2,20514,0.05811764439339963,cholangiocarcinoma; uterine carcinosarcoma; esophageal carcinoma
+3,20513,0.056789597190302674,esophageal carcinoma; bladder urothelial carcinoma; cholangiocarcinoma
+4,20511,0.05651842876515269,uterine carcinosarcoma; bladder urothelial carcinoma; uterine corpus endometrioid carcinoma
+5,20510,0.05373826155610615,cholangiocarcinoma; bladder urothelial carcinoma; esophageal carcinoma
+6,20506,0.053064319552579335,uterine carcinosarcoma; cholangiocarcinoma; uterine corpus endometrioid carcinoma
+7,20504,0.05278956568971261,cholangiocarcinoma; uterine carcinosarcoma; rectum adenocarcinoma
+8,20507,0.05268698635192339,cholangiocarcinoma; uterine carcinosarcoma; lung adenocarcinoma
+9,20512,0.0522266456657432,uterine carcinosarcoma; cholangiocarcinoma; uterine corpus endometrioid carcinoma
+10,20501,0.0510014037397313,cholangiocarcinoma; rectum adenocarcinoma; uterine corpus endometrioid carcinoma
+11,20516,0.0507913666942725,cholangiocarcinoma; rectum adenocarcinoma; uterine corpus endometrioid carcinoma
+12,20515,0.04969136019347182,uterine carcinosarcoma; cholangiocarcinoma; esophageal carcinoma
+13,20509,0.048120702175717726,cholangiocarcinoma; rectum adenocarcinoma; mesothelioma
+14,20502,0.04796685303843334,cholangiocarcinoma; rectum adenocarcinoma; bladder urothelial carcinoma
+15,20517,0.04791947299393052,cholangiocarcinoma; uterine corpus endometrioid carcinoma; bladder urothelial carcinoma
+16,20525,0.04724954878740375,uterine carcinosarcoma; cholangiocarcinoma; mesothelioma
+17,20508,0.04723546027588809,cholangiocarcinoma; uterine corpus endometrioid carcinoma; uterine carcinosarcoma
+18,20500,0.04675236186318064,cholangiocarcinoma; rectum adenocarcinoma; esophageal carcinoma
+19,20503,0.04655225956625844,cholangiocarcinoma; uterine carcinosarcoma; rectum adenocarcinoma
+20,20521,0.04536738204261438,cholangiocarcinoma; uterine corpus endometrioid carcinoma; rectum adenocarcinoma
+21,20523,0.04536680710075004,cholangiocarcinoma; uterine carcinosarcoma; bladder urothelial carcinoma
+22,20524,0.044026927467836485,cholangiocarcinoma; mesothelioma; sarcoma
+23,20498,0.04314983461337589,cholangiocarcinoma; uterine carcinosarcoma; uterine corpus endometrioid carcinoma
+24,20499,0.04232060389216366,cholangiocarcinoma; uterine corpus endometrioid carcinoma; rectum adenocarcinoma
+25,20526,0.04071866040787934,uterine carcinosarcoma; bladder urothelial carcinoma; cholangiocarcinoma
+26,20496,0.04061270687849101,uterine corpus endometrioid carcinoma; cholangiocarcinoma; uterine carcinosarcoma
+27,20492,0.04025959750901073,cholangiocarcinoma; uterine carcinosarcoma; uterine corpus endometrioid carcinoma
+28,20519,0.04014442512461699,cholangiocarcinoma; rectum adenocarcinoma; colon adenocarcinoma
+29,20497,0.03940803814481604,cholangiocarcinoma; rectum adenocarcinoma; mesothelioma
+30,20522,0.03930449939074763,cholangiocarcinoma; rectum adenocarcinoma; lung adenocarcinoma
+31,20518,0.03808362021053001,cholangiocarcinoma; rectum adenocarcinoma; bladder urothelial carcinoma
+32,20520,0.03653571204901581,uterine carcinosarcoma; uterine corpus endometrioid carcinoma; cholangiocarcinoma
+33,20494,0.036457444576511545,cholangiocarcinoma; rectum adenocarcinoma; uterine corpus endometrioid carcinoma
+34,20491,0.035428677838816314,cholangiocarcinoma; uterine corpus endometrioid carcinoma; rectum adenocarcinoma
+35,20495,0.03435313985063226,cholangiocarcinoma; rectum adenocarcinoma; bladder urothelial carcinoma
+36,20527,0.033939890457423495,cholangiocarcinoma; rectum adenocarcinoma; uterine carcinosarcoma
+37,20493,0.032838957216106496,uterine carcinosarcoma; cholangiocarcinoma; rectum adenocarcinoma
+38,9,0.03188620127370787,cholangiocarcinoma; rectum adenocarcinoma; lung adenocarcinoma
+39,20490,0.03132061978356357,cholangiocarcinoma; rectum adenocarcinoma; lung squamous cell carcinoma
+40,17,0.030353039187169657,cholangiocarcinoma; uterine carcinosarcoma; rectum adenocarcinoma
+41,26,0.02957015568917486,uterine carcinosarcoma; rectum adenocarcinoma; cholangiocarcinoma
+42,20489,0.029313724038410264,cholangiocarcinoma; rectum adenocarcinoma; bladder urothelial carcinoma
+43,20,0.029172217120018485,cholangiocarcinoma; uterine carcinosarcoma; rectum adenocarcinoma
+44,13,0.029061191047135997,uterine carcinosarcoma; cholangiocarcinoma; rectum adenocarcinoma
+45,22,0.028915007857551033,cholangiocarcinoma; bladder urothelial carcinoma; colon adenocarcinoma
+46,16,0.028825732997868784,cholangiocarcinoma; rectum adenocarcinoma; uterine corpus endometrioid carcinoma
+47,23,0.028671661766941175,uterine carcinosarcoma; cholangiocarcinoma; bladder urothelial carcinoma
+48,18,0.028401108717896313,cholangiocarcinoma; uterine carcinosarcoma; rectum adenocarcinoma
+49,10,0.028066518802509374,cholangiocarcinoma; uterine carcinosarcoma; bladder urothelial carcinoma
+50,21,0.02798246250177516,cholangiocarcinoma; uterine carcinosarcoma; uterine corpus endometrioid carcinoma

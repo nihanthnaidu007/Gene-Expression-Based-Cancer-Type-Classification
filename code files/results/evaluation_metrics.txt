@@ -1,0 +1,36 @@
+Test Accuracy: 0.864882
+Macro Avg F1: 0.833891
+Per-class F1:
+   0 | skin cutaneous melanoma                       : 0.853503
+   1 | thyroid carcinoma                             : 0.976744
+   2 | sarcoma                                       : 0.800000
+   3 | prostate adenocarcinoma                       : 0.968553
+   4 | pheochromocytoma & paraganglioma              : 1.000000
+   5 | pancreatic adenocarcinoma                     : 0.821429
+   6 | head & neck squamous cell carcinoma           : 0.890244
+   7 | esophageal carcinoma                          : 0.727273
+   8 | colon adenocarcinoma                          : 0.846154
+   9 | cervical & endocervical cancer                : 0.674157
+  10 | breast invasive carcinoma                     : 0.937669
+  11 | bladder urothelial carcinoma                  : 0.631579
+  12 | testicular germ cell tumor                    : 1.000000
+  13 | kidney papillary cell carcinoma               : 0.854167
+  14 | kidney clear cell carcinoma                   : 0.932584
+  15 | acute myeloid leukemia                        : 1.000000
+  16 | rectum adenocarcinoma                         : 0.454545
+  17 | ovarian serous cystadenocarcinoma             : 0.967742
+  18 | lung adenocarcinoma                           : 0.721519
+  19 | liver hepatocellular carcinoma                : 0.944000
+  20 | uterine corpus endometrioid carcinoma         : 0.684932
+  21 | glioblastoma multiforme                       : 0.943396
+  22 | brain lower grade glioma                      : 0.967742
+  23 | uterine carcinosarcoma                        : 0.363636
+  24 | thymoma                                       : 1.000000
+  25 | stomach adenocarcinoma                        : 0.909091
+  26 | diffuse large B-cell lymphoma                 : 1.000000
+  27 | lung squamous cell carcinoma                  : 0.705882
+  28 | mesothelioma                                  : 0.666667
+  29 | kidney chromophobe                            : 0.857143
+  30 | uveal melanoma                                : 1.000000
+  31 | cholangiocarcinoma                            : 0.461538
+  32 | adrenocortical cancer                         : 0.956522

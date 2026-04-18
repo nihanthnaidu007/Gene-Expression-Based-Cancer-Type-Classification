@@ -1,0 +1,20 @@
+# PyTorch: for GPU builds see https://pytorch.org/get-started/locally/
+# train.py — model training
+numpy>=1.21.0
+torch>=2.0.0
+h5py>=3.8.0
+matplotlib>=3.5.0
+scikit-learn>=1.2.0
+
+# plot_*.py — uses pandas in plot_training_curves.py
+pandas>=1.5.0
+
+# notebooks/explore.ipynb
+seaborn>=0.12.0
+
+# notebooks/tcga_preprocess.ipynb
+progressbar2>=4.2.0
+plotly>=5.0.0
+# tcga_preprocess.ipynb: use `import plotly.express as px` (plotly_express is deprecated)
+MulticoreTSNE>=0.1
+# MulticoreTSNE may need a C compiler on Windows; comment out if install fails

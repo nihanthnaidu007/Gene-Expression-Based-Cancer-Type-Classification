@@ -158,12 +158,7 @@ Top gene importance scores computed via saliency-based gradient attribution. Kno
 │       └── biomarker_importance.png    # Gene importance visualization
 │
 ├── notebooks/
-│   └── tcga_preprocess.ipynb                   # EDA: class distribution, t-SNE visualization
-│
-└── docs/                               # (optional) Project reports and presentations
-    ├── TCGA_Full_Project_Report.docx
-    ├── TCGA_Final_Presentation.pptx
-    └── TCGA_Professor_QA_Guide.docx
+    └── tcga_preprocess.ipynb                   # Download HiSeqV2 RNA-Seq expression data from UCSC Xena
 ```
 
 ---

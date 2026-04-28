@@ -1,0 +1,39 @@
+READ merged into COAD (colorectal)
+Tag           : seed999
+Test Accuracy : 0.931166
+Macro Avg F1  : 0.909276
+Mean ROC AUC  : 0.995372
+
+Per-class F1 (sorted worst -> best):
+  ACC    | adrenocortical cancer                         F1=0.5455
+  THYM   | thymoma                                       F1=0.6667
+  UVM    | uveal melanoma                                F1=0.6667
+  ESCA   | esophageal carcinoma                          F1=0.7586
+  MESO   | mesothelioma                                  F1=0.8391
+  BLCA   | bladder urothelial carcinoma                  F1=0.8462
+  CESC   | cervical & endocervical cancer                F1=0.8478
+  KIRP   | kidney papillary cell carcinoma               F1=0.8750
+  DLBC   | diffuse large B-cell lymphoma                 F1=0.8841
+  GBM    | glioblastoma multiforme                       F1=0.8889
+  LIHC   | liver hepatocellular carcinoma                F1=0.8994
+  SARC   | sarcoma                                       F1=0.9302
+  KIRC   | kidney clear cell carcinoma                   F1=0.9333
+  LUSC   | lung squamous cell carcinoma                  F1=0.9333
+  HNSC   | head & neck squamous cell carcinoma           F1=0.9398
+  SKCM   | skin cutaneous melanoma                       F1=0.9517
+  UCEC   | uterine corpus endometrioid carcinoma         F1=0.9524
+  LGG    | brain lower grade glioma                      F1=0.9600
+  KICH   | kidney chromophobe                            F1=0.9600
+  PAAD   | pancreatic adenocarcinoma                     F1=0.9630
+  BRCA   | breast invasive carcinoma                     F1=0.9638
+  STAD   | stomach adenocarcinoma                        F1=0.9744
+  UCS    | uterine carcinosarcoma                        F1=0.9750
+  TGCT   | testicular germ cell tumor                    F1=0.9796
+  PCPG   | pheochromocytoma & paraganglioma              F1=0.9818
+  THCA   | thyroid carcinoma                             F1=0.9884
+  CRC    | colorectal cancer (COAD+READ)                 F1=0.9924
+  PRAD   | prostate adenocarcinoma                       F1=1.0000
+  LAML   | acute myeloid leukemia                        F1=1.0000
+  LUAD   | lung adenocarcinoma                           F1=1.0000
+  CHOL   | cholangiocarcinoma                            F1=1.0000
+  class_32 | class_32                                      F1=1.0000

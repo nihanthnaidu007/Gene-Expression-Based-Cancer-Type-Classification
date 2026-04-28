@@ -1,51 +1,51 @@
-gene_rank,gene_index,global_importance_score,top_class_labels_where_gene_is_important
-1,20505,0.06067454350660513,cholangiocarcinoma; uterine carcinosarcoma; lung adenocarcinoma
-2,20514,0.05811764439339963,cholangiocarcinoma; uterine carcinosarcoma; esophageal carcinoma
-3,20513,0.056789597190302674,esophageal carcinoma; bladder urothelial carcinoma; cholangiocarcinoma
-4,20511,0.05651842876515269,uterine carcinosarcoma; bladder urothelial carcinoma; uterine corpus endometrioid carcinoma
-5,20510,0.05373826155610615,cholangiocarcinoma; bladder urothelial carcinoma; esophageal carcinoma
-6,20506,0.053064319552579335,uterine carcinosarcoma; cholangiocarcinoma; uterine corpus endometrioid carcinoma
-7,20504,0.05278956568971261,cholangiocarcinoma; uterine carcinosarcoma; rectum adenocarcinoma
-8,20507,0.05268698635192339,cholangiocarcinoma; uterine carcinosarcoma; lung adenocarcinoma
-9,20512,0.0522266456657432,uterine carcinosarcoma; cholangiocarcinoma; uterine corpus endometrioid carcinoma
-10,20501,0.0510014037397313,cholangiocarcinoma; rectum adenocarcinoma; uterine corpus endometrioid carcinoma
-11,20516,0.0507913666942725,cholangiocarcinoma; rectum adenocarcinoma; uterine corpus endometrioid carcinoma
-12,20515,0.04969136019347182,uterine carcinosarcoma; cholangiocarcinoma; esophageal carcinoma
-13,20509,0.048120702175717726,cholangiocarcinoma; rectum adenocarcinoma; mesothelioma
-14,20502,0.04796685303843334,cholangiocarcinoma; rectum adenocarcinoma; bladder urothelial carcinoma
-15,20517,0.04791947299393052,cholangiocarcinoma; uterine corpus endometrioid carcinoma; bladder urothelial carcinoma
-16,20525,0.04724954878740375,uterine carcinosarcoma; cholangiocarcinoma; mesothelioma
-17,20508,0.04723546027588809,cholangiocarcinoma; uterine corpus endometrioid carcinoma; uterine carcinosarcoma
-18,20500,0.04675236186318064,cholangiocarcinoma; rectum adenocarcinoma; esophageal carcinoma
-19,20503,0.04655225956625844,cholangiocarcinoma; uterine carcinosarcoma; rectum adenocarcinoma
-20,20521,0.04536738204261438,cholangiocarcinoma; uterine corpus endometrioid carcinoma; rectum adenocarcinoma
-21,20523,0.04536680710075004,cholangiocarcinoma; uterine carcinosarcoma; bladder urothelial carcinoma
-22,20524,0.044026927467836485,cholangiocarcinoma; mesothelioma; sarcoma
-23,20498,0.04314983461337589,cholangiocarcinoma; uterine carcinosarcoma; uterine corpus endometrioid carcinoma
-24,20499,0.04232060389216366,cholangiocarcinoma; uterine corpus endometrioid carcinoma; rectum adenocarcinoma
-25,20526,0.04071866040787934,uterine carcinosarcoma; bladder urothelial carcinoma; cholangiocarcinoma
-26,20496,0.04061270687849101,uterine corpus endometrioid carcinoma; cholangiocarcinoma; uterine carcinosarcoma
-27,20492,0.04025959750901073,cholangiocarcinoma; uterine carcinosarcoma; uterine corpus endometrioid carcinoma
-28,20519,0.04014442512461699,cholangiocarcinoma; rectum adenocarcinoma; colon adenocarcinoma
-29,20497,0.03940803814481604,cholangiocarcinoma; rectum adenocarcinoma; mesothelioma
-30,20522,0.03930449939074763,cholangiocarcinoma; rectum adenocarcinoma; lung adenocarcinoma
-31,20518,0.03808362021053001,cholangiocarcinoma; rectum adenocarcinoma; bladder urothelial carcinoma
-32,20520,0.03653571204901581,uterine carcinosarcoma; uterine corpus endometrioid carcinoma; cholangiocarcinoma
-33,20494,0.036457444576511545,cholangiocarcinoma; rectum adenocarcinoma; uterine corpus endometrioid carcinoma
-34,20491,0.035428677838816314,cholangiocarcinoma; uterine corpus endometrioid carcinoma; rectum adenocarcinoma
-35,20495,0.03435313985063226,cholangiocarcinoma; rectum adenocarcinoma; bladder urothelial carcinoma
-36,20527,0.033939890457423495,cholangiocarcinoma; rectum adenocarcinoma; uterine carcinosarcoma
-37,20493,0.032838957216106496,uterine carcinosarcoma; cholangiocarcinoma; rectum adenocarcinoma
-38,9,0.03188620127370787,cholangiocarcinoma; rectum adenocarcinoma; lung adenocarcinoma
-39,20490,0.03132061978356357,cholangiocarcinoma; rectum adenocarcinoma; lung squamous cell carcinoma
-40,17,0.030353039187169657,cholangiocarcinoma; uterine carcinosarcoma; rectum adenocarcinoma
-41,26,0.02957015568917486,uterine carcinosarcoma; rectum adenocarcinoma; cholangiocarcinoma
-42,20489,0.029313724038410264,cholangiocarcinoma; rectum adenocarcinoma; bladder urothelial carcinoma
-43,20,0.029172217120018485,cholangiocarcinoma; uterine carcinosarcoma; rectum adenocarcinoma
-44,13,0.029061191047135997,uterine carcinosarcoma; cholangiocarcinoma; rectum adenocarcinoma
-45,22,0.028915007857551033,cholangiocarcinoma; bladder urothelial carcinoma; colon adenocarcinoma
-46,16,0.028825732997868784,cholangiocarcinoma; rectum adenocarcinoma; uterine corpus endometrioid carcinoma
-47,23,0.028671661766941175,uterine carcinosarcoma; cholangiocarcinoma; bladder urothelial carcinoma
-48,18,0.028401108717896313,cholangiocarcinoma; uterine carcinosarcoma; rectum adenocarcinoma
-49,10,0.028066518802509374,cholangiocarcinoma; uterine carcinosarcoma; bladder urothelial carcinoma
-50,21,0.02798246250177516,cholangiocarcinoma; uterine carcinosarcoma; uterine corpus endometrioid carcinoma
+rank,gene_index,gene_symbol,global_importance_score,known_biomarker_for (paper),top_3_cancer_types
+1,50,gene_50,0.022513,,cervical & endocervical cancer; bladder urothelial carcinoma; thymoma
+2,51,gene_51,0.022392,,adrenocortical cancer; cervical & endocervical cancer; thymoma
+3,38,gene_38,0.021410,,esophageal carcinoma; adrenocortical cancer; thymoma
+4,36,gene_36,0.021070,,thymoma; esophageal carcinoma; glioblastoma multiforme
+5,40,gene_40,0.020188,,thymoma; sarcoma; adrenocortical cancer
+6,45,gene_45,0.019509,,adrenocortical cancer; thymoma; cervical & endocervical cancer
+7,37,gene_37,0.019304,,thymoma; adrenocortical cancer; cervical & endocervical cancer
+8,48,gene_48,0.019235,,thymoma; adrenocortical cancer; mesothelioma
+9,49,gene_49,0.019000,,cervical & endocervical cancer; thymoma; adrenocortical cancer
+10,39,gene_39,0.018844,,thymoma; glioblastoma multiforme; bladder urothelial carcinoma
+11,43,gene_43,0.018595,,adrenocortical cancer; thymoma; bladder urothelial carcinoma
+12,44,gene_44,0.018409,,adrenocortical cancer; thymoma; esophageal carcinoma
+13,41,gene_41,0.018404,,adrenocortical cancer; esophageal carcinoma; cervical & endocervical cancer
+14,61,gene_61,0.018018,,cervical & endocervical cancer; thymoma; mesothelioma
+15,46,gene_46,0.017966,,cervical & endocervical cancer; bladder urothelial carcinoma; mesothelioma
+16,53,gene_53,0.017818,,thymoma; esophageal carcinoma; bladder urothelial carcinoma
+17,33,gene_33,0.017791,,adrenocortical cancer; thymoma; bladder urothelial carcinoma
+18,42,gene_42,0.017704,,adrenocortical cancer; thymoma; bladder urothelial carcinoma
+19,35,gene_35,0.017638,,thymoma; adrenocortical cancer; bladder urothelial carcinoma
+20,32,gene_32,0.017480,,adrenocortical cancer; thymoma; glioblastoma multiforme
+21,47,gene_47,0.017245,,adrenocortical cancer; thymoma; esophageal carcinoma
+22,52,gene_52,0.017055,,cervical & endocervical cancer; thymoma; bladder urothelial carcinoma
+23,64,gene_64,0.016822,,adrenocortical cancer; bladder urothelial carcinoma; cervical & endocervical cancer
+24,54,gene_54,0.016521,,adrenocortical cancer; thymoma; cervical & endocervical cancer
+25,27,gene_27,0.016486,,adrenocortical cancer; thymoma; bladder urothelial carcinoma
+26,60,gene_60,0.016356,,thymoma; bladder urothelial carcinoma; glioblastoma multiforme
+27,28,gene_28,0.016319,,thymoma; adrenocortical cancer; bladder urothelial carcinoma
+28,22,gene_22,0.016314,,thymoma; adrenocortical cancer; glioblastoma multiforme
+29,24,gene_24,0.016155,,bladder urothelial carcinoma; adrenocortical cancer; esophageal carcinoma
+30,55,gene_55,0.016154,,adrenocortical cancer; glioblastoma multiforme; thymoma
+31,34,gene_34,0.016148,,thymoma; adrenocortical cancer; esophageal carcinoma
+32,56,gene_56,0.016111,,adrenocortical cancer; glioblastoma multiforme; thymoma
+33,30,gene_30,0.015886,,thymoma; adrenocortical cancer; cervical & endocervical cancer
+34,57,gene_57,0.015468,,bladder urothelial carcinoma; thymoma; kidney chromophobe
+35,25,gene_25,0.015442,,adrenocortical cancer; thymoma; bladder urothelial carcinoma
+36,65,gene_65,0.015347,,adrenocortical cancer; bladder urothelial carcinoma; thymoma
+37,26,gene_26,0.015263,,adrenocortical cancer; thymoma; glioblastoma multiforme
+38,29,gene_29,0.015007,,thymoma; bladder urothelial carcinoma; esophageal carcinoma
+39,16,gene_16,0.015005,,adrenocortical cancer; thymoma; kidney chromophobe
+40,63,gene_63,0.014936,,adrenocortical cancer; esophageal carcinoma; thymoma
+41,31,gene_31,0.014928,,glioblastoma multiforme; bladder urothelial carcinoma; cervical & endocervical cancer
+42,17,gene_17,0.014904,,thymoma; bladder urothelial carcinoma; kidney chromophobe
+43,68,gene_68,0.014873,,glioblastoma multiforme; esophageal carcinoma; thymoma
+44,62,gene_62,0.014804,,thymoma; bladder urothelial carcinoma; adrenocortical cancer
+45,23,gene_23,0.014647,,adrenocortical cancer; thymoma; cervical & endocervical cancer
+46,58,gene_58,0.014605,,adrenocortical cancer; sarcoma; bladder urothelial carcinoma
+47,59,gene_59,0.014543,,adrenocortical cancer; thymoma; glioblastoma multiforme
+48,9,gene_9,0.014365,,adrenocortical cancer; bladder urothelial carcinoma; sarcoma
+49,66,gene_66,0.014156,,thymoma; esophageal carcinoma; bladder urothelial carcinoma
+50,21,gene_21,0.014079,,thymoma; adrenocortical cancer; esophageal carcinoma

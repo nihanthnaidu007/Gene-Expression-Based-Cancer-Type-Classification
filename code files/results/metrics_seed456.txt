@@ -1,0 +1,39 @@
+READ merged into COAD (colorectal)
+Tag           : seed456
+Test Accuracy : 0.935628
+Macro Avg F1  : 0.919378
+Mean ROC AUC  : 0.995746
+
+Per-class F1 (sorted worst -> best):
+  ACC    | adrenocortical cancer                         F1=0.5714
+  ESCA   | esophageal carcinoma                          F1=0.7451
+  UVM    | uveal melanoma                                F1=0.8148
+  BLCA   | bladder urothelial carcinoma                  F1=0.8197
+  CESC   | cervical & endocervical cancer                F1=0.8387
+  MESO   | mesothelioma                                  F1=0.8457
+  SARC   | sarcoma                                       F1=0.8571
+  THYM   | thymoma                                       F1=0.8571
+  LUSC   | lung squamous cell carcinoma                  F1=0.8750
+  KIRP   | kidney papillary cell carcinoma               F1=0.8913
+  DLBC   | diffuse large B-cell lymphoma                 F1=0.9014
+  LIHC   | liver hepatocellular carcinoma                F1=0.9048
+  UCEC   | uterine corpus endometrioid carcinoma         F1=0.9365
+  KIRC   | kidney clear cell carcinoma                   F1=0.9392
+  HNSC   | head & neck squamous cell carcinoma           F1=0.9398
+  LGG    | brain lower grade glioma                      F1=0.9434
+  KICH   | kidney chromophobe                            F1=0.9600
+  class_32 | class_32                                      F1=0.9600
+  PAAD   | pancreatic adenocarcinoma                     F1=0.9655
+  GBM    | glioblastoma multiforme                       F1=0.9677
+  SKCM   | skin cutaneous melanoma                       F1=0.9714
+  UCS    | uterine carcinosarcoma                        F1=0.9747
+  CRC    | colorectal cancer (COAD+READ)                 F1=0.9771
+  BRCA   | breast invasive carcinoma                     F1=0.9807
+  PCPG   | pheochromocytoma & paraganglioma              F1=0.9818
+  THCA   | thyroid carcinoma                             F1=1.0000
+  PRAD   | prostate adenocarcinoma                       F1=1.0000
+  TGCT   | testicular germ cell tumor                    F1=1.0000
+  LAML   | acute myeloid leukemia                        F1=1.0000
+  LUAD   | lung adenocarcinoma                           F1=1.0000
+  STAD   | stomach adenocarcinoma                        F1=1.0000
+  CHOL   | cholangiocarcinoma                            F1=1.0000

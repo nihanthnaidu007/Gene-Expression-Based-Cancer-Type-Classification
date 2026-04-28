@@ -1,0 +1,47 @@
+
+=================================================================
+FINAL TRAINING RUN - SUMMARY
+=================================================================
+READ merged into COAD (32 classes)
+Dataset  : D:\tcga-cancer-predict-master\tcga-cancer-predict-master\Github Ready\code files\Data\data.h5
+Samples  : 10,459  |  Genes: 20,530  |  Classes: 32
+Device   : cuda  |  PyTorch 2.11.0+cu128
+
+Augmentation: MixUp(0.2) + Noise(0.05) + Label Smooth(0.1) + SMOTE
+Ensemble : 5 models x 10 TTA passes = 50 predictions per sample
+Weights  : Nelder-Mead optimised on validation set
+Calibration: Temperature scaling T=1.006 + TTA blend
+
+Results:
+  Equal-weight ensemble       : 94.52%
+  Weighted ensemble           : 94.26%
+  Weighted + calibrated (final): 94.33%
+  Macro F1                    : 0.9250
+  Mean ROC AUC                : 0.9957
+  >95% target                 : [X] NOT YET
+
+Optimal model weights:
+  seed= 42 : 0.2347
+  seed=123 : 0.0901
+  seed=456 : 0.2400
+  seed=789 : 0.3321
+  seed=999 : 0.1031
+
+Worst 5 classes:
+  ACC    | adrenocortical cancer                         F1=0.5455
+  UVM    | uveal melanoma                                F1=0.7200
+  ESCA   | esophageal carcinoma                          F1=0.7692
+  THYM   | thymoma                                       F1=0.8571
+  MESO   | mesothelioma                                  F1=0.8571
+
+Output files (in results/):
+  confusion_matrix_final_merged.png        <- PRIMARY for final report
+  metrics_final_merged.txt
+  gene_importance_scores.csv
+  gene_importance_per_cancer.csv
+  final_probabilities.npy
+  optimal_weights.npy
+  models/best_model_seed{42,123,456,789,999}.pt
+
+Total training time : 67.3 minutes
+=================================================================

@@ -1,0 +1,39 @@
+READ merged into COAD (colorectal)
+Tag           : seed42
+Test Accuracy : 0.924156
+Macro Avg F1  : 0.909629
+Mean ROC AUC  : 0.995626
+
+Per-class F1 (sorted worst -> best):
+  ACC    | adrenocortical cancer                         F1=0.6667
+  ESCA   | esophageal carcinoma                          F1=0.6923
+  UVM    | uveal melanoma                                F1=0.7200
+  THYM   | thymoma                                       F1=0.7500
+  BLCA   | bladder urothelial carcinoma                  F1=0.7869
+  CESC   | cervical & endocervical cancer                F1=0.8000
+  SARC   | sarcoma                                       F1=0.8421
+  KIRP   | kidney papillary cell carcinoma               F1=0.8478
+  MESO   | mesothelioma                                  F1=0.8503
+  HNSC   | head & neck squamous cell carcinoma           F1=0.8837
+  DLBC   | diffuse large B-cell lymphoma                 F1=0.8921
+  LIHC   | liver hepatocellular carcinoma                F1=0.9029
+  KIRC   | kidney clear cell carcinoma                   F1=0.9071
+  LUSC   | lung squamous cell carcinoma                  F1=0.9333
+  SKCM   | skin cutaneous melanoma                       F1=0.9444
+  UCEC   | uterine corpus endometrioid carcinoma         F1=0.9524
+  LGG    | brain lower grade glioma                      F1=0.9600
+  KICH   | kidney chromophobe                            F1=0.9600
+  class_32 | class_32                                      F1=0.9600
+  GBM    | glioblastoma multiforme                       F1=0.9667
+  BRCA   | breast invasive carcinoma                     F1=0.9722
+  TGCT   | testicular germ cell tumor                    F1=0.9796
+  UCS    | uterine carcinosarcoma                        F1=0.9811
+  PAAD   | pancreatic adenocarcinoma                     F1=0.9818
+  THCA   | thyroid carcinoma                             F1=0.9884
+  CRC    | colorectal cancer (COAD+READ)                 F1=0.9924
+  PRAD   | prostate adenocarcinoma                       F1=0.9939
+  PCPG   | pheochromocytoma & paraganglioma              F1=1.0000
+  LAML   | acute myeloid leukemia                        F1=1.0000
+  LUAD   | lung adenocarcinoma                           F1=1.0000
+  STAD   | stomach adenocarcinoma                        F1=1.0000
+  CHOL   | cholangiocarcinoma                            F1=1.0000

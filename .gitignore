@@ -46,3 +46,5 @@ build/
 
 # Logs
 *.log
+!code files/Data/data.h5
+!code files/Data/data.h5

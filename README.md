@@ -4,9 +4,6 @@
 
 **Team:** Nihanth Naidu K, Likitha P, Shreya V
 
-**Repository:** [https://github.com/LikithaPulugari09/Gene-expression-cancer-classification-using-deep-learning.git](https://github.com/LikithaPulugari09/Gene-expression-cancer-classification-using-deep-learning.git)
-
----
 
 ## Overview
 

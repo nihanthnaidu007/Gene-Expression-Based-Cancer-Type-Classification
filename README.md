@@ -158,7 +158,7 @@ Top gene importance scores computed via saliency-based gradient attribution. Kno
 │       └── biomarker_importance.png    # Gene importance visualization
 │
 ├── notebooks/
-│   └── explore.ipynb                   # EDA: class distribution, t-SNE visualization
+│   └── tcga_preprocess.ipynb                   # EDA: class distribution, t-SNE visualization
 │
 └── docs/                               # (optional) Project reports and presentations
     ├── TCGA_Full_Project_Report.docx
@@ -242,7 +242,7 @@ pip install -r requirements.txt
 The raw TCGA data must be downloaded and converted to HDF5 format. This is a **one-time** step.
 
 ```bash
-jupyter notebook notebooks/explore.ipynb
+jupyter notebook notebooks/tcga_preprocess.ipynb
 ```
 
 Run all cells in order. The notebook will:
@@ -293,7 +293,7 @@ python train.py
 
 | Hardware | Approximate Time |
 |----------|-----------------|
-| NVIDIA GPU (RTX 3060+) | ~67 minutes |
+| NVIDIA GPU (RTX 5060) | ~67 minutes |
 | CPU only | ~4–6 hours |
 
 ### Output Files Generated

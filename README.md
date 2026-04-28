@@ -71,7 +71,7 @@ Total Trainable Parameters: ~480K
 
 ## Pipeline Workflow
 
-![Pipeline Workflow](code%20files/plots/pipeline_workflow.png)
+![Pipeline Workflow](code%20files/plots/pipeline_workflow.jpeg)
 
 The full pipeline from raw data to final predictions:
 

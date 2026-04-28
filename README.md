@@ -149,7 +149,7 @@ Top gene importance scores computed via saliency-based gradient attribution. Kno
 │   │   └── metrics_seed{42,123,456,789,999}.txt  # Per-model test metrics
 │   └── plots/
 │       ├── architecture_diagram.png    # CNN architecture visualization
-│       ├── pipeline_workflow.png       # End-to-end pipeline diagram
+│       ├── pipeline_workflow.jpeg       # End-to-end pipeline diagram
 │       ├── training_curves.png         # Accuracy & loss over epochs
 │       ├── confusion_matrix_final_merged.png  # Final confusion matrix
 │       ├── f1_scores_per_class.png     # Per-class F1 bar chart

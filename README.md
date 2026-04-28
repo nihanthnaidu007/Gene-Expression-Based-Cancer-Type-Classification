@@ -11,13 +11,13 @@ This project develops a **1D Convolutional Neural Network (1D-CNN) ensemble** to
 
 We address three gaps left open by Mostavi et al. (2020):
 
-1. **Class imbalance handling** — inverse-frequency weighted focal loss + SMOTE oversampling for minority classes
-2. **Model interpretability** — saliency-based gene importance scores mapped per cancer type, validated against known biomarkers
-3. **Full reproducibility** — deterministic seeds, public code, and automated data pipeline
+1. **Class imbalance handling** - inverse-frequency weighted focal loss + SMOTE oversampling for minority classes
+2. **Model interpretability** - saliency-based gene importance scores mapped per cancer type, validated against known biomarkers
+3. **Full reproducibility** - deterministic seeds, public code, and automated data pipeline
 
 ### Key Design Decisions
 
-- **READ/COAD Merge:** Rectum adenocarcinoma (READ) and colon adenocarcinoma (COAD) are merged into a single "Colorectal Cancer (CRC)" class. This is scientifically justified — both originate from the same tissue and share a molecular subtype (Hoadley et al. 2018, Cell). This reduces classes from 33 → 32 and eliminates the most-confused pair.
+- **READ/COAD Merge:** Rectum adenocarcinoma (READ) and colon adenocarcinoma (COAD) are merged into a single "Colorectal Cancer (CRC)" class. This is scientifically justified because both originate from the same tissue and share a molecular subtype (Hoadley et al. 2018, Cell). This reduces classes from 33 to 32 and eliminates the most-confused pair.
 - **5-Model Ensemble:** Five independently-seeded models are trained and combined via Nelder-Mead optimized weights on the validation set.
 - **Test-Time Augmentation (TTA):** Each model generates 10 augmented predictions per sample (Gaussian noise injection), yielding 50 total predictions per patient that are averaged for the final decision.
 
@@ -39,7 +39,7 @@ We address three gaps left open by Mostavi et al. (2020):
 
 - **7 classes achieve perfect F1 = 1.000:** THCA, PRAD, PCPG, LAML, LUAD, STAD, CHOL
 - **25 of 32 classes achieve F1 ≥ 0.85** (excellent classification)
-- **Hardest classes:** ACC (F1=0.55), UVM (F1=0.72), ESCA (F1=0.77) — all rare cancer types with <100 samples
+- **Hardest classes:** ACC (F1=0.55), UVM (F1=0.72), ESCA (F1=0.77) - all rare cancer types with <100 samples
 
 ---
 
@@ -235,7 +235,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install -r requirements.txt
 ```
 
-**Note on MulticoreTSNE:** This optional package (used only in `notebooks/explore.ipynb` for t-SNE plots) requires a C++ compiler. On Windows, install Visual Studio Build Tools first. If installation fails, skip it — the main training pipeline does not depend on it.
+**Note on MulticoreTSNE:** This optional package (used only in `notebooks/explore.ipynb` for t-SNE plots) requires a C++ compiler. On Windows, install Visual Studio Build Tools first. If installation fails, skip it; the main training pipeline does not depend on it.
 
 ### Step 4: Generate the Dataset
 
@@ -301,15 +301,15 @@ python train.py
 After training completes, the following files are created:
 
 ```
-models/best_model_seed{42,123,456,789,999}.pt  — 5 model checkpoints
-results/final_summary.txt                       — Full training report
-results/metrics_final_merged.txt                — Per-class precision/recall/F1
-results/confusion_matrix_final_merged.png       — 32×32 confusion matrix
-results/gene_importance_scores.csv              — Top 50 genes globally
-results/gene_importance_per_cancer.csv          — Top 10 genes per cancer type
-results/history_seed*.csv                       — Epoch-by-epoch training logs
-results/final_probabilities.npy                 — Test set probability matrix
-results/optimal_weights.npy                     — Ensemble weight vector
+models/best_model_seed{42,123,456,789,999}.pt  - 5 model checkpoints
+results/final_summary.txt                       - Full training report
+results/metrics_final_merged.txt                - Per-class precision/recall/F1
+results/confusion_matrix_final_merged.png       - 32x32 confusion matrix
+results/gene_importance_scores.csv              - Top 50 genes globally
+results/gene_importance_per_cancer.csv          - Top 10 genes per cancer type
+results/history_seed*.csv                       - Epoch-by-epoch training logs
+results/final_probabilities.npy                 - Test set probability matrix
+results/optimal_weights.npy                     - Ensemble weight vector
 ```
 
 ---
@@ -381,8 +381,8 @@ The model's top-ranked genes are cross-referenced against known cancer biomarker
 | BRAF | THCA (Thyroid) | Mostavi 2020 | ✓ |
 
 Results are saved to:
-- `results/gene_importance_scores.csv` — Global top 50 genes
-- `results/gene_importance_per_cancer.csv` — Top 10 genes per cancer type
+- `results/gene_importance_scores.csv` - Global top 50 genes
+- `results/gene_importance_per_cancer.csv` - Top 10 genes per cancer type
 
 ---
 
@@ -504,7 +504,7 @@ python plot_results.py
 
 | | |
 |--|--|
-| **Course** | CS 697 / AI 687-001 BK — Bioinformatics and Artificial Intelligence |
+| **Course** | CS 697 / AI 687-001 BK - Bioinformatics and Artificial Intelligence |
 | **Semester** | Spring 2026 |
 | **Institution** | Long Island University, Brooklyn |
 | **Team** | Nihanth Naidu K, Likitha P, Shreya V |

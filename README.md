@@ -198,7 +198,7 @@ Top gene importance scores computed via saliency-based gradient attribution. Kno
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/LikithaPulugari09/Gene-expression-cancer-classification-using-deep-learning.git
+git clone https://github.com/nihanthnaidu007/Gene-Expression-Based-Cancer-Type-Classification.git
 cd Gene-expression-cancer-classification-using-deep-learning
 ```
 

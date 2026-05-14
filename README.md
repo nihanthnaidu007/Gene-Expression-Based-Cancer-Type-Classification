@@ -288,7 +288,7 @@ python train.py
 
 | Hardware | Approximate Time |
 |----------|-----------------|
-| NVIDIA GPU (RTX 5060) | ~67 minutes |
+| NVIDIA GPU (RTX 5080) | ~67 minutes |
 | CPU only | ~4–6 hours |
 
 ### Output Files Generated
